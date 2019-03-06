@@ -15,8 +15,7 @@ public class Studente extends Persona{
     Libretto libretto;
     
     Studente(String nome, String cognome,int matricola){
-        this.nome = nome;
-        this.cognome = cognome;
+        super(nome,cognome);
         this.matricola= matricola;
         this.libretto=new Libretto();
     }
